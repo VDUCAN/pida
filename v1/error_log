@@ -1,0 +1,88 @@
+[21-Jun-2019 20:51:37 UTC] PHP Fatal error:  Call to a member function post() on a non-object in /home/pida/public_html/v1/index.php on line 22
+[21-Jun-2019 20:52:42 UTC] PHP Notice:  Undefined variable: app in /home/pida/public_html/v1/index.php on line 22
+[21-Jun-2019 20:52:42 UTC] PHP Fatal error:  Call to a member function post() on a non-object in /home/pida/public_html/v1/index.php on line 22
+[21-Jun-2019 20:52:58 UTC] PHP Notice:  Undefined variable: app in /home/pida/public_html/v1/index.php on line 22
+[21-Jun-2019 20:52:58 UTC] PHP Fatal error:  Call to a member function post() on a non-object in /home/pida/public_html/v1/index.php on line 22
+[21-Jun-2019 20:53:19 UTC] PHP Notice:  Undefined variable: app in /home/pida/public_html/v1/index.php on line 157
+[21-Jun-2019 20:53:19 UTC] PHP Fatal error:  Call to a member function post() on a non-object in /home/pida/public_html/v1/index.php on line 157
+[21-Jun-2019 20:53:46 UTC] PHP Fatal error:  Call to a member function post() on a non-object in /home/pida/public_html/v1/index.php on line 22
+[21-Jun-2019 21:19:12 UTC] PHP Warning:  require_once(ROOTDSinclude/DbHandler.php): failed to open stream: No such file or directory in /home/pida/public_html/v1/index.php on line 7
+[21-Jun-2019 21:19:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'ROOTDSinclude/DbHandler.php' (include_path='.:/opt/cpanel/ea-php55/root/usr/share/pear') in /home/pida/public_html/v1/index.php on line 7
+[21-Jun-2019 21:19:45 UTC] PHP Fatal error:  Class 'Slim\Helper\Set' not found in /home/pida/public_html/lib/Slim/Slim.php on line 154
+[10-Jul-2019 05:50:40 UTC] Stripe Notice: Undefined property of Stripe\Account instance: legal_entity
+[10-Jul-2019 07:13:55 UTC] Stripe Notice: Undefined property of Stripe\Account instance: legal_entity
+[10-Jul-2019 07:15:06 UTC] Stripe Notice: Undefined property of Stripe\Account instance: legal_entity
+[10-Jul-2019 07:17:26 UTC] Stripe Notice: Undefined property of Stripe\Account instance: legal_entity
+[10-Jul-2019 07:18:11 UTC] Stripe Notice: Undefined property of Stripe\Account instance: legal_entity
+[10-Jul-2019 07:51:01 UTC] Stripe Notice: Undefined property of Stripe\Account instance: individual
+[10-Jul-2019 07:59:08 UTC] Stripe Notice: Undefined property of Stripe\Account instance: individual
+[10-Jul-2019 07:59:25 UTC] Stripe Notice: Undefined property of Stripe\Account instance: individual
+[10-Jul-2019 07:59:57 UTC] Stripe Notice: Undefined property of Stripe\Account instance: individual
+[10-Jul-2019 08:16:53 UTC] Stripe Notice: Undefined property of Stripe\Account instance: payouts
+[10-Jul-2019 08:23:47 UTC] Stripe Notice: Undefined property of Stripe\Account instance: payouts
+[10-Jul-2019 08:27:30 UTC] Stripe Notice: Undefined property of Stripe\Account instance: payouts
+[10-Jul-2019 08:27:45 UTC] Stripe Notice: Undefined property of Stripe\Account instance: payouts
+[10-Jul-2019 08:28:28 UTC] Stripe Notice: Undefined property of Stripe\Account instance: payout
+[10-Jul-2019 08:28:49 UTC] Stripe Notice: Undefined property of Stripe\Account instance: payout
+[10-Jul-2019 08:28:57 UTC] Stripe Notice: Undefined property of Stripe\Account instance: payouts
+[10-Jul-2019 08:29:10 UTC] Stripe Notice: Undefined property of Stripe\Account instance: payout
+[11-Oct-2019 14:42:40 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:41 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:42 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:42 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:42 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:42 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:43 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:43 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:43 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:43 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:52 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:52 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:52 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:52 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:52 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:52 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:52 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:52 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:52 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:52 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:52 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:53 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:53 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:42:53 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/pida/public_html/v1/index.php on line 1160
+[11-Oct-2019 14:47:04 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:09 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:09 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:09 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:09 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:10 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:11 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:11 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:11 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747
+[11-Oct-2019 14:47:11 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/pida/public_html/include/DbHandler.php on line 3747

@@ -1,0 +1,419 @@
+LIVE BASE URL :http://pida.com/v1/
+TESTING BASE URL:http://m.brsoftech.net/pida/v1/ 
+
+1. Customer Registration
+Test URL: http://pida.com/v1/customer_registration
+Method: POST
+Params - first_name(mandatory), last_name(mandatory), phone(mandatory), email(mandatory), password(mandatory)
+2. Driver Registration
+Test URL: http://pida.com/v1/driver_registration
+Method: POST
+Params: first_name(mandatory), last_name(mandatory), phone(mandatory), email(mandatory), password(mandatory) 
+3. User Login
+Test URL: http://pida.com/v1/login
+Method: POST
+params - name(optional), email (mandatory) ,password (optional),login_from(mandatory),device_token(mandatory),user_type(mandatory),lang_code
+ * login_from  -   N -> normal, F -> facebook, G -> google+, T -> Twitter
+ * user_type - N=Normal User(Customer), D=Driver
+ * device_type - A=Android, I=IOS
+* lang_code = en->English,es->Spanish
+4. User Forgot Password
+Test URL: http://pida.com/v1/forgot_password
+Method: POST
+Params - email (mandatory)
+
+5. Get Categories
+Test URL: http://pida.com/v1/get_categories/:lang
+Method: GET
+params - lang (mandatory) -> en/es,
+
+6. Get Vehicle Types   
+Test URL: http://pida.com/v1/get_vehicle_types/:lang/:category_id
+Method: GET
+ params - lang (mandatory) -> en/es, category_id (mandatory)
+
+
+7. Get Cargo Types
+Test URL: http://pida.com/v1/get_cargo_types/:lang
+Method: GET
+ params - lang (mandatory) -> en/es,
+
+8. Get Countries    
+Test URL: http://pida.com/v1/get_countries/:lang
+Method: GET
+params - lang (mandatory) -> en/es,
+
+9. Get States 
+Test URL: http://pida.com/v1/get_states/:lang/:country_id
+Method: GET
+Params - lang (mandatory) -> en/es, state_id (mandatory, if country_id is 0 then api will return all the states)
+
+10. Get Cities
+Test URL: http://pida.com/v1/get_cities/:lang/:state_id
+Method: POST
+ Params - lang (mandatory) -> en/es, state_id (mandatory, if state_id is 0 then api will return all the cities)
+
+11. Get Languages
+Test URL: http://pida.com/v1/get_languages
+Method: GET
+12. Change Password
+Test URL: http://pida.com/v1/change_password
+Method: POST
+Params - old_password (mandatory) , new_password (mandatory)
+Header Params - email (mandatory), password (mandatory)
+
+13. Get FAQ
+Test URL: http://pida.com/v1/get_faq/:lang
+Method: GET
+params - lang (mandatory) -> en/es,
+
+14. Get Static Page
+Test URL: http://pida.com/v1/get_static_page/:lang/:page_id
+Method: GET
+params - lang (mandatory) -> en/es, page_id (mandatory)
+page_id = 1 (About_us) , page_id = 2 (Privacy Policy), page_id = 3 (Terms of use)
+
+15. Get Vehicle Makes    
+Test URL: http://pida.com/v1/get_vehicle_makes/:lang
+Method: GET
+params - lang (mandatory) -> en/es,
+
+16. Get Vehicle Models 
+Test URL: http://pida.com/v1/get_vehicle_models/:lang/:make_id
+Method: GET
+Params - lang (mandatory) -> en/es, make_id (mandatory, if make_id is 0 then api will return all the models)
+
+17. Update lat long (location) of user
+Test URL: http://pida.com/v1/update_user_location
+Method: POST
+Params - lat (mandatory) , long (mandatory)
+Header Params - email (mandatory), password (mandatory)
+
+18. Get fare parameters for fare calculation
+Test URL: http://pida.com/v1/get_fare_calculation
+Method: GET
+Header Params - email (mandatory), password (mandatory)
+19 Get listing of near by drivers to show on map
+Test URL: http://pida.com/v1/get_near_by_drivers
+Method: GET
+Params - lat (mandatory) , long (mandatory) , miles (mandatory)
+Header Params - email (mandatory), password (mandatory)
+20 Get delivery Types
+Test URL: http://pida.com/v1/get_delivery_types/:lang/
+Method: GET
+Params - lang (mandatory) -> en/es
+Header Params - email (mandatory), password (mandatory)
+21 Book a driver
+
+Test URL: http://pida.com/v1/book_driver
+
+Method: POST
+
+Params - vehicle_type_id (mandatory),lat (mandatory),long (mandatory) , booking_address(mandatory) , cargo_type_id (mandatory) , cargo_type_notes ,  delivery_type_id (mandatory) , delivery_type_notes , pickup_date , price , total_miles , dimension,  cubicfeet   
+
+Header Params - email (mandatory), password (mandatory)
+Note: Note: booking_address would in json format [{"source_company_name":"B R Softech","source_address":"Triven nagar","source_lat":"23.1443123123","source_long":"56.3664545","destination_company_name":"A3 logics","destination_address":"Sitapura","destination_lat":"23.4545531435","destination_long":"56.3664545"},{"source_company_name":"B R Softech","source_address":"Triven nagar","source_lat":"23.1443123123","source_long":"56.3664545","destination_company_name":"A3 logics","destination_address":"Sitapura","destination_lat":"23.4545531435","destination_long":"56.3664545"},{"source_company_name":"B R Softech","source_address":"Triven nagar","source_lat":"23.1443123123","source_long":"56.3664545","destination_company_name":"A3 logics","destination_address":"Sitapura","destination_lat":"23.4545531435","destination_long":"56.3664545"}]
+ cargo_type_id would be in json format [1,2]
+delivery_type_id would be in json format [1,2] 
+
+pickup_date format would be Unix timestamp
+
+
+
+
+22 Get Driver pending booking request
+
+Test URL: http://pida.com/v1/get_booking_request
+
+Method: GET
+
+Header Params - email (mandatory), password (mandatory)
+
+
+
+23 Accept booking Request
+
+Test URL: http://pida.com/v1/accept_booking_request
+
+Method: PUT
+
+Params - booking_id (mandatory)
+
+Header Params - email (mandatory), password (mandatory)
+
+
+
+24 Reject Booking Request
+
+Test URL: http://pida.com/v1/reject_booking_request
+
+Method: PUT
+
+Params - booking_id (mandatory) , reject_reason
+
+Header Params - email (mandatory), password (mandatory)
+
+
+
+25 Get Feedback type
+Test URL: http://pida.com/v1/get_feedback_types/:lang/
+Method: GET
+Params - lang (mandatory) -> en/es
+Header Params - email (mandatory), password (mandatory)
+26 Send feedback reqeust
+Test URL: http://pida.com/v1/feedback_request
+Method: POST
+Params - feedback_type_id (mandatory),message (mandatory) 
+Header Params - email (mandatory), password (mandatory)
+27 Get User Profile
+Test URL: http://pida.com/v1/get_user
+Method: GET
+Params - 
+Header Params - email (mandatory), password (mandatory) 
+28 User update profile
+Test URL: http://pida.com/v1/updateprofile
+Method: POST
+Params - first_name (mandatory),last_name (mandatory) ,phone,email,photo
+Header Params - email (mandatory), password (mandatory)
+
+29 Driver details
+Test URL: http://pida.com/v1/get_driver_details/:lang/
+Method: GET
+Params - lang (mandatory) -> en/es
+Header Params - email (mandatory), password (mandatory)
+
+30  Driver update profile
+Test URL: http://pida.com/v1/update_driver_profile
+Method: POST
+Params - first_name (mandatory),last_name (mandatory), phone, email, photo, address, country_id, state_id, city_id, zip_code, dob 
+Header Params - email (mandatory), password (mandatory)
+31  Add Driver Vehicles
+Test URL: http://pida.com/v1/add_driver_vehicles
+Method: POST
+Params - vehicle_type_id(mandatory),make_id(mandatory), model_id(mandatory), make_year(mandatory), color(mandatory) , plate_no (mandatory), insurance_policy_doc(optional), registration_doc(optional)
+ Header Params - email (mandatory), password (mandatory)
+32 Delete Driver Vehicles
+Test URL: http://pida.com/v1/delete_driver_vehicle/:id
+Method: DELETE
+Params - id(mandatory)
+ Header Params - email (mandatory), password (mandatory)
+
+33 User switch mode
+Test URL: http://pida.com/v1/switch_mode
+Method: POST
+Params –
+ Header Params - email (mandatory), password (mandatory)
+
+33 Driver set profile
+Test URL: http://pida.com/v1/driver_set_profile
+Method: POST
+Params – vehicle_type_id(mandatory), make_id(mandatory), model_id(mandatory), make_year(mandatory), color(mandatory), plate_no(mandatory), ssn(mandatory),driving_license_no(mandatory), country_id(mandatory), state_id(mandatory), question(mandatory), driver_id(mandatory), insurance_policy_doc(optional), registration_doc(optional), dob(mandatory),
+Header Params - email (mandatory), password (mandatory)
+
+Description
+ insurance_policy_doc(file type) upload file
+registration_doc (file type) upload file
+question (Json) eg: [{"question":"test question","answer":"test answer"},{"question":"test question","answer":"test answer"},{"question":"test question","answer":"test answer"}]
+dob (date type) Ex : 1983-07-24
+
+
+34 Driver Arrived
+Test URL: http://pida.com/v1/driver_arrived
+Method: POST
+Params – arrived (mandatory), booking_location_id (mandatory)
+Header Params - email (mandatory), password (mandatory)
+
+Note : push_type = 3 (Driver arrived at source location)
+push_type = 4 (Driver arrived at destination location)
+arrived = S , D
+
+
+35 Driver vehicle online
+Test URL: http://pida.com/v1/driver_vehicle_online
+Method: PUT    
+Params –  vehicle_id (mandatory)
+Header Params - email (mandatory), password (mandatory)
+
+
+36 Driver vehicle offline
+Test URL: http://pida.com/v1/driver_vehicle_offline
+Method: PUT
+Header Params - email (mandatory), password (mandatory)
+
+36 Driver vehicle offline
+37.Booking address calculate
+Test URL: http://pida.com/v1/calculate_address
+Method: POST
+Params – booking_address(mandatory)
+Header Params - email (mandatory), password (mandatory)
+
+
+Example Data :
+booking_address:[{"source_lat":"23.1443123123","source_long":"56.3664545","destination_lat":"23.4545531435","destination_long":"56.3664545"},{"source_lat":"23.1443123123","source_long":"56.3664545","destination_lat":"23.4545531435","destination_long":"56.3664545"}]
+38 Add credit card 
+Test URL: http://pida.com/v1/addcreditcard
+Method: POST
+Params - cardholdername (mandatory), cvv (mandatory), expirationDate(mandatory), number(mandatory), is_default(mandatory)
+Header Params - email (mandatory), password (mandatory)
+
+Example Data : 
+cardholdername:Jaswant
+cvv:5555
+expirationDate:10/23
+number:378734493671000
+is_default:N
+
+Test  credit cards : https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm
+
+38 Booking Complete
+Test URL: http://pida.com/v1/booking_complete
+Method: POST
+Params - booking_id (mandatory)
+ Header Params - email (mandatory), password (mandatory)
+
+Example Data : 	
+booking_id:46
+
+39 Get Credit Cards
+Test URL: http://pida.com/v1/get_credit_card
+Method: GET
+Params –
+ Header Params - email (mandatory), password (mandatory)
+
+40 Set Credit Cards
+Test URL: http://pida.com/v1/set_credit_card
+Method: PUT
+Params – credit_card_id(mandatory)
+ Header Params - email (mandatory), password (mandatory)
+
+41 Get driver earnings
+Test URL: http://pida.com/v1/get_driver_earnings
+Method: GET
+Params – 
+Header Params - email (mandatory), password (mandatory)
+Note: Date would be in Unixtimestamp format
+
+42 Get driver payment history
+Test URL: http://pida.com/v1/get_driver_payment_history
+Method: GET
+Params – 
+Header Params - email (mandatory), password (mandatory)
+
+43 Get user completed bookings
+Test URL: http://pida.com/v1/get_user_completed_booking 
+Method: GET
+Params – 
+Header Params - email (mandatory), password (mandatory)
+
+44 Booking rating
+Test URL: http://pida.com/v1/booking_rating
+Method: POST
+Params –  booking_id(mandatory), rating(mandatory),comment(optional)
+Header Params - email (mandatory), password (mandatory)
+
+44 Booking cancel
+Test URL: http://pida.com/v1/booking_cancel
+Method: POST
+Params –  booking_id(mandatory)
+Header Params - email (mandatory), password (mandatory)
+
+45 Logout
+Test URL: http://pida.com/v1/logout
+Method: POST
+Params –
+Header Params - email (mandatory), password (mandatory)
+
+46 Get Booking details
+Test URL: http://pida.com/v1/get_booking_details/:booking_id
+Method: GET
+Params –  booking_id (mandatory),
+Header Params - email (mandatory), password (mandatory)
+
+Note : Field ‘booking_status’ options
+Open->1 Assign ->2 Cancel->3 Arrived->4 Completed=>5
+
+47 Get user upcoming bookings
+Test URL: http://pida.com/v1/get_user_upcoming_booking
+Method: GET
+Params – 
+Header Params - email (mandatory), password (mandatory)
+
+48 Save bank account details
+Test URL: http://pida.com/v1/set_bank_details
+Method: POST
+Params – account_type(mandatory), router_no(mandatory), account_no(mandatory) 
+Header Params - email (mandatory), password (mandatory)
+
+ Note : account_type can be (‘C’=>Checking,’S’=>Saving)
+Sand box testing valid account no
+'accountNumber' => '1123581321',	
+  'routingNumber' => '071101307'
+ 
+46 Get bank account details
+Test URL: http://pida.com/v1/get_bank_details
+Method: GET
+Params –  
+Header Params - email (mandatory), password (mandatory)
+
+47. Get current running trip
+Test URL: http://pida.com/v1/get_running_trip_details/:lang
+Method: GET
+params - lang (mandatory) -> en/es,
+Header Params - email (mandatory), password (mandatory)
+
+48 Get driver assign trip
+Test URL: http://pida.com/v1/get_driver_assign_trip_details/en
+Method: GET
+params - lang (mandatory) -> en/es,
+Header Params - email (mandatory), password (mandatory)
+
+49 Rider Booking cancel
+Test URL: http://pida.com/v1/rider_booking_cancel
+Method: POST
+Params:   booking_id(mandatory)
+Header Params: email (mandatory), password (mandatory)
+
+50 check device token
+ url - /check_device_token
+ method - POST
+ params - device_token(mandatory) 
+ header Params - username(mandatory), password(mandatory)  
+
+51 Validate Driver Registration
+Test URL: /validate_driver_registration
+Method: POST
+Params: first_name(mandatory), last_name(mandatory), phone(mandatory), email(mandatory), password(mandatory) 
+
+52 Refresh Token
+   url - /refresh_token
+   method - POST
+   params - device_token(mandatory),device_type(mandatory),
+   Note: device_type - A=Android, I=IOS,
+
+
+################# New APIs ####################
+
+53. Bank Details
+	url - /add_bank_details
+	method - POST
+	params - dob (mandatory y-m-d), country_id (mandatory), state_id (mandatory), city_id(mandatory), address (mandatory), zip_code (mandatory), account_type (mandatory), router_no (mandatory), account_no (mandatory)
+	header Params - email (mandatory), password (mandatory)
+
+54. User add credit card
+	url - /add_credit_card
+	method - POST
+	params -  card_holder_name(mandatory), card_number(mandatory), cvv(mandatory), expiry_date(mandatory(m/Y)), currency(mandatory)(send "USD" for now), is_default(mandatory)(Y=>yes, N=>No)
+	header Params - email (mandatory), password (mandatory)
+
+55. Get payment history details
+	url - /get_driver_payment_history_details/:transactionIds
+ 	method - GET
+ 	header Params - email (mandatory), password (mandatory)
+ 	Note : transactionIds is recevied in response of web services get_driver_payment_history
+
+55. Get driver details
+	url : /v1/driver_detail/
+ 	method : GET
+ 	Params : Id (mandatory)
+
+

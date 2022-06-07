@@ -1,0 +1,39 @@
+
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+
+</IfModule>
+<IfModule lsapi_module>
+
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+#   RewriteRule ^(.*)$ https://pida.com/app/webroot/index.php/$1 [R=301,L]
+   RewriteEngine on
+   RewriteRule ^$ app/webroot/ [L]
+   RewriteRule (.*) app/webroot/$1 [L]
+    
+     RewriteCond %{REQUEST_FILENAME} uploads
+
+#  RewriteCond %{REQUEST_URI} !^/app/webroot/uploads
+ RewriteRule ^(.*)$ https://pida.com/app/webroot/$1 [R=301,L]
+ 
+   RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ /index.php/$1 [L]
+#  RewriteRule ^uploads/(.*)$ /app/webroot/uploads/$1 [L,R=301]
+    
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php55” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php55 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

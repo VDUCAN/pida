@@ -1,0 +1,1464 @@
+<!---------------------[2018/03/29 10:56:43]----------------------->
+ BOOKING ID 177
+ PAYMENT INPUT Array
+(
+    [individual] => Array
+        (
+            [firstName] => approve_me
+            [lastName] => Zhong
+            [email] => john@nexuas.com
+            [phone] => 3053351112
+            [dateOfBirth] => 1989-05-23
+            [address] => Array
+                (
+                    [streetAddress] => 
+                    [locality] => United States
+                    [region] => FL
+                    [postalCode] => 
+                )
+
+        )
+
+    [funding] => Array
+        (
+            [destination] => bank
+            [email] => john@nexuas.com
+            [accountNumber] => 242403016305
+            [routingNumber] => 066011392
+        )
+
+    [tosAccepted] => 1
+    [masterMerchantAccountId] => PIDACORP_instant
+)
+
+ PAYMENT OUTPUT Braintree\Result\Error Object
+(
+    [success] => 
+    [_attributes:protected] => Array
+        (
+            [errors] => Braintree\Error\ErrorCollection Object
+                (
+                    [_errors:Braintree\Error\ErrorCollection:private] => Braintree\Error\ValidationErrorCollection Object
+                        (
+                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                )
+
+                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                    [merchantAccount] => Braintree\Error\ValidationErrorCollection Object
+                                        (
+                                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                    [0] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => masterMerchantAccountId
+                                                            [_code:Braintree\Error\Validation:private] => 82607
+                                                            [_message:Braintree\Error\Validation:private] => Master merchant account ID is invalid.
+                                                        )
+
+                                                )
+
+                                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                )
+
+                                            [_collection:protected] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [_collection:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [params] => Array
+                (
+                    [merchantAccount] => Array
+                        (
+                            [individual] => Array
+                                (
+                                    [firstName] => approve_me
+                                    [lastName] => Zhong
+                                    [email] => john@nexuas.com
+                                    [phone] => 3053351112
+                                    [address] => Array
+                                        (
+                                            [streetAddress] => 
+                                            [locality] => United States
+                                            [region] => FL
+                                            [postalCode] => 
+                                        )
+
+                                )
+
+                            [funding] => Array
+                                (
+                                    [destination] => bank
+                                    [email] => john@nexuas.com
+                                )
+
+                            [tosAccepted] => true
+                            [masterMerchantAccountId] => PIDACORP_instant
+                        )
+
+                    [merchantId] => nhdpfb6gqrst9fks
+                )
+
+            [message] => Master merchant account ID is invalid.
+            [creditCardVerification] => 
+            [transaction] => 
+            [subscription] => 
+            [merchantAccount] => 
+            [verification] => 
+        )
+
+)
+
+<!------------------------------End-------------------------------->
+<!---------------------[2018/03/29 11:01:31]----------------------->
+ BOOKING ID 177
+ PAYMENT INPUT Array
+(
+    [individual] => Array
+        (
+            [firstName] => approve_me
+            [lastName] => Zhong
+            [email] => john@nexuas.com
+            [phone] => 3053351112
+            [dateOfBirth] => 1989-05-23
+            [address] => Array
+                (
+                    [streetAddress] => 10829 nw 85th ter
+                    [locality] => United States
+                    [region] => FL
+                    [postalCode] => 33178
+                )
+
+        )
+
+    [funding] => Array
+        (
+            [destination] => bank
+            [email] => john@nexuas.com
+            [accountNumber] => 242403016305
+            [routingNumber] => 066011392
+        )
+
+    [tosAccepted] => 1
+    [masterMerchantAccountId] => PIDACORP_instant
+)
+
+ PAYMENT OUTPUT Braintree\Result\Error Object
+(
+    [success] => 
+    [_attributes:protected] => Array
+        (
+            [errors] => Braintree\Error\ErrorCollection Object
+                (
+                    [_errors:Braintree\Error\ErrorCollection:private] => Braintree\Error\ValidationErrorCollection Object
+                        (
+                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                )
+
+                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                    [merchantAccount] => Braintree\Error\ValidationErrorCollection Object
+                                        (
+                                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                    [0] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => masterMerchantAccountId
+                                                            [_code:Braintree\Error\Validation:private] => 82607
+                                                            [_message:Braintree\Error\Validation:private] => Master merchant account ID is invalid.
+                                                        )
+
+                                                )
+
+                                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                )
+
+                                            [_collection:protected] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [_collection:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [params] => Array
+                (
+                    [merchantAccount] => Array
+                        (
+                            [individual] => Array
+                                (
+                                    [firstName] => approve_me
+                                    [lastName] => Zhong
+                                    [email] => john@nexuas.com
+                                    [phone] => 3053351112
+                                    [address] => Array
+                                        (
+                                            [streetAddress] => 10829 nw 85th ter
+                                            [locality] => United States
+                                            [region] => FL
+                                            [postalCode] => 33178
+                                        )
+
+                                )
+
+                            [funding] => Array
+                                (
+                                    [destination] => bank
+                                    [email] => john@nexuas.com
+                                )
+
+                            [tosAccepted] => true
+                            [masterMerchantAccountId] => PIDACORP_instant
+                        )
+
+                    [merchantId] => nhdpfb6gqrst9fks
+                )
+
+            [message] => Master merchant account ID is invalid.
+            [creditCardVerification] => 
+            [transaction] => 
+            [subscription] => 
+            [merchantAccount] => 
+            [verification] => 
+        )
+
+)
+
+<!------------------------------End-------------------------------->
+<!---------------------[2018/03/29 11:09:31]----------------------->
+ BOOKING ID 177
+ PAYMENT INPUT Array
+(
+    [individual] => Array
+        (
+            [firstName] => approve_me
+            [lastName] => Zhong
+            [email] => john@nexuas.com
+            [phone] => 3053351112
+            [dateOfBirth] => 1989-05-23
+            [address] => Array
+                (
+                    [streetAddress] => 10829 nw 85th ter 
+                    [locality] => United States
+                    [region] => FL
+                    [postalCode] => 33178
+                )
+
+        )
+
+    [funding] => Array
+        (
+            [destination] => bank
+            [email] => john@nexuas.com
+            [accountNumber] => 242403016305
+            [routingNumber] => 066011392
+        )
+
+    [tosAccepted] => 1
+    [masterMerchantAccountId] => PIDACORP_instant
+)
+
+ PAYMENT OUTPUT Braintree\Result\Error Object
+(
+    [success] => 
+    [_attributes:protected] => Array
+        (
+            [errors] => Braintree\Error\ErrorCollection Object
+                (
+                    [_errors:Braintree\Error\ErrorCollection:private] => Braintree\Error\ValidationErrorCollection Object
+                        (
+                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                )
+
+                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                    [merchantAccount] => Braintree\Error\ValidationErrorCollection Object
+                                        (
+                                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                    [0] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => masterMerchantAccountId
+                                                            [_code:Braintree\Error\Validation:private] => 82607
+                                                            [_message:Braintree\Error\Validation:private] => Master merchant account ID is invalid.
+                                                        )
+
+                                                )
+
+                                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                )
+
+                                            [_collection:protected] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [_collection:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [params] => Array
+                (
+                    [merchantAccount] => Array
+                        (
+                            [individual] => Array
+                                (
+                                    [firstName] => approve_me
+                                    [lastName] => Zhong
+                                    [email] => john@nexuas.com
+                                    [phone] => 3053351112
+                                    [address] => Array
+                                        (
+                                            [streetAddress] => 10829 nw 85th ter
+                                            [locality] => United States
+                                            [region] => FL
+                                            [postalCode] => 33178
+                                        )
+
+                                )
+
+                            [funding] => Array
+                                (
+                                    [destination] => bank
+                                    [email] => john@nexuas.com
+                                )
+
+                            [tosAccepted] => true
+                            [masterMerchantAccountId] => PIDACORP_instant
+                        )
+
+                    [merchantId] => nhdpfb6gqrst9fks
+                )
+
+            [message] => Master merchant account ID is invalid.
+            [creditCardVerification] => 
+            [transaction] => 
+            [subscription] => 
+            [merchantAccount] => 
+            [verification] => 
+        )
+
+)
+
+<!------------------------------End-------------------------------->
+<!---------------------[2018/03/29 11:24:49]----------------------->
+ BOOKING ID 178
+ PAYMENT INPUT Array
+(
+    [individual] => Array
+        (
+            [firstName] => approve_me
+            [lastName] => sandaval
+            [email] => jzhong.amazon@gmail.con
+            [phone] => 3054257141
+            [dateOfBirth] => 1992-07-29
+            [address] => Array
+                (
+                    [streetAddress] => 
+                    [locality] => United States
+                    [region] => FL
+                    [postalCode] => 
+                )
+
+        )
+
+    [funding] => Array
+        (
+            [destination] => bank
+            [email] => jzhong.amazon@gmail.con
+            [accountNumber] => 557944221
+            [routingNumber] => 25230097
+        )
+
+    [tosAccepted] => 1
+    [masterMerchantAccountId] => PIDACORP_instant
+)
+
+ PAYMENT OUTPUT Braintree\Result\Error Object
+(
+    [success] => 
+    [_attributes:protected] => Array
+        (
+            [errors] => Braintree\Error\ErrorCollection Object
+                (
+                    [_errors:Braintree\Error\ErrorCollection:private] => Braintree\Error\ValidationErrorCollection Object
+                        (
+                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                )
+
+                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                    [merchantAccount] => Braintree\Error\ValidationErrorCollection Object
+                                        (
+                                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                    [0] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => masterMerchantAccountId
+                                                            [_code:Braintree\Error\Validation:private] => 82607
+                                                            [_message:Braintree\Error\Validation:private] => Master merchant account ID is invalid.
+                                                        )
+
+                                                )
+
+                                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                )
+
+                                            [_collection:protected] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [_collection:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [params] => Array
+                (
+                    [merchantAccount] => Array
+                        (
+                            [individual] => Array
+                                (
+                                    [firstName] => approve_me
+                                    [lastName] => sandaval
+                                    [email] => jzhong.amazon@gmail.con
+                                    [phone] => 3054257141
+                                    [address] => Array
+                                        (
+                                            [streetAddress] => 
+                                            [locality] => United States
+                                            [region] => FL
+                                            [postalCode] => 
+                                        )
+
+                                )
+
+                            [funding] => Array
+                                (
+                                    [destination] => bank
+                                    [email] => jzhong.amazon@gmail.con
+                                )
+
+                            [tosAccepted] => true
+                            [masterMerchantAccountId] => PIDACORP_instant
+                        )
+
+                    [merchantId] => nhdpfb6gqrst9fks
+                )
+
+            [message] => Master merchant account ID is invalid.
+            [creditCardVerification] => 
+            [transaction] => 
+            [subscription] => 
+            [merchantAccount] => 
+            [verification] => 
+        )
+
+)
+
+<!------------------------------End-------------------------------->
+<!---------------------[2018/03/30 05:50:03]----------------------->
+ BOOKING ID 16
+ PAYMENT INPUT Array
+(
+    [individual] => Array
+        (
+            [firstName] => Jaswant
+            [lastName] => driver
+            [email] => jspanwarbwr1@gmail.com
+            [phone] => 9564152359
+            [dateOfBirth] => 1983-02-24
+            [address] => Array
+                (
+                    [streetAddress] => 111 main st,
+                    [locality] => United States
+                    [region] => IL
+                    [postalCode] => 60622
+                )
+
+        )
+
+    [funding] => Array
+        (
+            [destination] => bank
+            [email] => jspanwarbwr1@gmail.com
+            [accountNumber] => 1123581321
+            [routingNumber] => 071101307
+        )
+
+    [tosAccepted] => 1
+    [masterMerchantAccountId] => PIDACORP_instant
+)
+
+ PAYMENT OUTPUT Braintree\Result\Error Object
+(
+    [success] => 
+    [_attributes:protected] => Array
+        (
+            [errors] => Braintree\Error\ErrorCollection Object
+                (
+                    [_errors:Braintree\Error\ErrorCollection:private] => Braintree\Error\ValidationErrorCollection Object
+                        (
+                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                )
+
+                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                    [merchantAccount] => Braintree\Error\ValidationErrorCollection Object
+                                        (
+                                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                    [0] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => masterMerchantAccountId
+                                                            [_code:Braintree\Error\Validation:private] => 82607
+                                                            [_message:Braintree\Error\Validation:private] => Master merchant account ID is invalid.
+                                                        )
+
+                                                )
+
+                                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                )
+
+                                            [_collection:protected] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [_collection:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [params] => Array
+                (
+                    [merchantAccount] => Array
+                        (
+                            [individual] => Array
+                                (
+                                    [firstName] => Jaswant
+                                    [lastName] => driver
+                                    [email] => jspanwarbwr1@gmail.com
+                                    [phone] => 9564152359
+                                    [address] => Array
+                                        (
+                                            [streetAddress] => 111 main st,
+                                            [locality] => United States
+                                            [region] => IL
+                                            [postalCode] => 60622
+                                        )
+
+                                )
+
+                            [funding] => Array
+                                (
+                                    [destination] => bank
+                                    [email] => jspanwarbwr1@gmail.com
+                                )
+
+                            [tosAccepted] => true
+                            [masterMerchantAccountId] => PIDACORP_instant
+                        )
+
+                    [merchantId] => nhdpfb6gqrst9fks
+                )
+
+            [message] => Master merchant account ID is invalid.
+            [creditCardVerification] => 
+            [transaction] => 
+            [subscription] => 
+            [merchantAccount] => 
+            [verification] => 
+        )
+
+)
+
+<!------------------------------End-------------------------------->
+<!---------------------[2018/03/30 05:52:21]----------------------->
+ BOOKING ID 16
+ PAYMENT INPUT Array
+(
+    [individual] => Array
+        (
+            [firstName] => Jaswant
+            [lastName] => driver
+            [email] => jspanwarbwr1@gmail.com
+            [phone] => 9564152359
+            [dateOfBirth] => 1983-02-24
+            [address] => Array
+                (
+                    [streetAddress] => 111 main st,
+                    [locality] => United States
+                    [region] => IL
+                    [postalCode] => 60622
+                )
+
+        )
+
+    [funding] => Array
+        (
+            [destination] => bank
+            [email] => jspanwarbwr1@gmail.com
+            [accountNumber] => 1123581321
+            [routingNumber] => 071101307
+        )
+
+    [tosAccepted] => 1
+    [masterMerchantAccountId] => PIDACORP_instant
+)
+
+ PAYMENT OUTPUT Braintree\Result\Error Object
+(
+    [success] => 
+    [_attributes:protected] => Array
+        (
+            [errors] => Braintree\Error\ErrorCollection Object
+                (
+                    [_errors:Braintree\Error\ErrorCollection:private] => Braintree\Error\ValidationErrorCollection Object
+                        (
+                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                )
+
+                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                    [merchantAccount] => Braintree\Error\ValidationErrorCollection Object
+                                        (
+                                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                    [0] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => masterMerchantAccountId
+                                                            [_code:Braintree\Error\Validation:private] => 82607
+                                                            [_message:Braintree\Error\Validation:private] => Master merchant account ID is invalid.
+                                                        )
+
+                                                )
+
+                                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                )
+
+                                            [_collection:protected] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [_collection:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [params] => Array
+                (
+                    [merchantAccount] => Array
+                        (
+                            [individual] => Array
+                                (
+                                    [firstName] => Jaswant
+                                    [lastName] => driver
+                                    [email] => jspanwarbwr1@gmail.com
+                                    [phone] => 9564152359
+                                    [address] => Array
+                                        (
+                                            [streetAddress] => 111 main st,
+                                            [locality] => United States
+                                            [region] => IL
+                                            [postalCode] => 60622
+                                        )
+
+                                )
+
+                            [funding] => Array
+                                (
+                                    [destination] => bank
+                                    [email] => jspanwarbwr1@gmail.com
+                                )
+
+                            [tosAccepted] => true
+                            [masterMerchantAccountId] => PIDACORP_instant
+                        )
+
+                    [merchantId] => nhdpfb6gqrst9fks
+                )
+
+            [message] => Master merchant account ID is invalid.
+            [creditCardVerification] => 
+            [transaction] => 
+            [subscription] => 
+            [merchantAccount] => 
+            [verification] => 
+        )
+
+)
+
+<!------------------------------End-------------------------------->
+<!---------------------[2018/03/30 09:07:57]----------------------->
+ BOOKING ID 16
+ PAYMENT INPUT Array
+(
+    [individual] => Array
+        (
+            [firstName] => Jaswant
+            [lastName] => driver
+            [email] => jspanwarbwr1@gmail.com
+            [phone] => 9564152359
+            [dateOfBirth] => 1983-02-24
+            [address] => Array
+                (
+                    [streetAddress] => 111 main st,
+                    [locality] => United States
+                    [region] => IL
+                    [postalCode] => 60622
+                )
+
+        )
+
+    [funding] => Array
+        (
+            [destination] => bank
+            [email] => jspanwarbwr1@gmail.com
+            [accountNumber] => 557944221
+            [routingNumber] => 25230097
+        )
+
+    [tosAccepted] => 1
+    [masterMerchantAccountId] => PIDACORP_instant
+)
+
+ PAYMENT OUTPUT Braintree\Result\Error Object
+(
+    [success] => 
+    [_attributes:protected] => Array
+        (
+            [errors] => Braintree\Error\ErrorCollection Object
+                (
+                    [_errors:Braintree\Error\ErrorCollection:private] => Braintree\Error\ValidationErrorCollection Object
+                        (
+                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                )
+
+                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                    [merchantAccount] => Braintree\Error\ValidationErrorCollection Object
+                                        (
+                                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                    [0] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => masterMerchantAccountId
+                                                            [_code:Braintree\Error\Validation:private] => 82607
+                                                            [_message:Braintree\Error\Validation:private] => Master merchant account ID is invalid.
+                                                        )
+
+                                                )
+
+                                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                )
+
+                                            [_collection:protected] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [_collection:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [params] => Array
+                (
+                    [merchantAccount] => Array
+                        (
+                            [individual] => Array
+                                (
+                                    [firstName] => Jaswant
+                                    [lastName] => driver
+                                    [email] => jspanwarbwr1@gmail.com
+                                    [phone] => 9564152359
+                                    [address] => Array
+                                        (
+                                            [streetAddress] => 111 main st,
+                                            [locality] => United States
+                                            [region] => IL
+                                            [postalCode] => 60622
+                                        )
+
+                                )
+
+                            [funding] => Array
+                                (
+                                    [destination] => bank
+                                    [email] => jspanwarbwr1@gmail.com
+                                )
+
+                            [tosAccepted] => true
+                            [masterMerchantAccountId] => PIDACORP_instant
+                        )
+
+                    [merchantId] => nhdpfb6gqrst9fks
+                )
+
+            [message] => Master merchant account ID is invalid.
+            [creditCardVerification] => 
+            [transaction] => 
+            [subscription] => 
+            [merchantAccount] => 
+            [verification] => 
+        )
+
+)
+
+<!------------------------------End-------------------------------->
+<!---------------------[2018/03/30 09:35:04]----------------------->
+ BOOKING ID 16
+ PAYMENT INPUT Array
+(
+    [individual] => Array
+        (
+            [firstName] => Jaswant
+            [lastName] => driver
+            [email] => jspanwarbwr1@gmail.com
+            [phone] => 9564152359
+            [dateOfBirth] => 1983-02-24
+            [address] => Array
+                (
+                    [streetAddress] => 111 main st,
+                    [locality] => United States
+                    [region] => IL
+                    [postalCode] => 60622
+                )
+
+        )
+
+    [funding] => Array
+        (
+            [destination] => bank
+            [email] => jspanwarbwr1@gmail.com
+            [accountNumber] => 557944221
+            [routingNumber] => 25230097
+        )
+
+    [tosAccepted] => 1
+    [masterMerchantAccountId] => PIDACORP_instant
+)
+
+ PAYMENT OUTPUT Braintree\Result\Error Object
+(
+    [success] => 
+    [_attributes:protected] => Array
+        (
+            [errors] => Braintree\Error\ErrorCollection Object
+                (
+                    [_errors:Braintree\Error\ErrorCollection:private] => Braintree\Error\ValidationErrorCollection Object
+                        (
+                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                )
+
+                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                    [merchantAccount] => Braintree\Error\ValidationErrorCollection Object
+                                        (
+                                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                    [0] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => masterMerchantAccountId
+                                                            [_code:Braintree\Error\Validation:private] => 82607
+                                                            [_message:Braintree\Error\Validation:private] => Master merchant account ID is invalid.
+                                                        )
+
+                                                )
+
+                                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                )
+
+                                            [_collection:protected] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [_collection:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [params] => Array
+                (
+                    [merchantAccount] => Array
+                        (
+                            [individual] => Array
+                                (
+                                    [firstName] => Jaswant
+                                    [lastName] => driver
+                                    [email] => jspanwarbwr1@gmail.com
+                                    [phone] => 9564152359
+                                    [address] => Array
+                                        (
+                                            [streetAddress] => 111 main st,
+                                            [locality] => United States
+                                            [region] => IL
+                                            [postalCode] => 60622
+                                        )
+
+                                )
+
+                            [funding] => Array
+                                (
+                                    [destination] => bank
+                                    [email] => jspanwarbwr1@gmail.com
+                                )
+
+                            [tosAccepted] => true
+                            [masterMerchantAccountId] => PIDACORP_instant
+                        )
+
+                    [merchantId] => nhdpfb6gqrst9fks
+                )
+
+            [message] => Master merchant account ID is invalid.
+            [creditCardVerification] => 
+            [transaction] => 
+            [subscription] => 
+            [merchantAccount] => 
+            [verification] => 
+        )
+
+)
+
+<!------------------------------End-------------------------------->
+<!---------------------[2018/05/18 02:57:14]----------------------->
+ BOOKING ID 1298
+ PAYMENT INPUT Array
+(
+    [amount] => 165.67
+    [merchantAccountId] => 
+    [options] => Array
+        (
+            [submitForSettlement] => 1
+            [holdInEscrow] => 1
+        )
+
+    [serviceFeeAmount] => 25.85
+    [paymentMethodToken] => card_1CLcgtHmHWWohEgMm5NA5SCV
+)
+
+ PAYMENT OUTPUT Braintree\Result\Error Object
+(
+    [success] => 
+    [_attributes:protected] => Array
+        (
+            [errors] => Braintree\Error\ErrorCollection Object
+                (
+                    [_errors:Braintree\Error\ErrorCollection:private] => Braintree\Error\ValidationErrorCollection Object
+                        (
+                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                )
+
+                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                    [transaction] => Braintree\Error\ValidationErrorCollection Object
+                                        (
+                                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                    [0] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => paymentMethodToken
+                                                            [_code:Braintree\Error\Validation:private] => 91518
+                                                            [_message:Braintree\Error\Validation:private] => Payment method token is invalid.
+                                                        )
+
+                                                    [1] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => serviceFeeAmount
+                                                            [_code:Braintree\Error\Validation:private] => 91557
+                                                            [_message:Braintree\Error\Validation:private] => Service fee not supported on master merchant account.
+                                                        )
+
+                                                    [2] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => base
+                                                            [_code:Braintree\Error\Validation:private] => 91560
+                                                            [_message:Braintree\Error\Validation:private] => Transaction could not be held in escrow.
+                                                        )
+
+                                                    [3] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => paymentMethodToken
+                                                            [_code:Braintree\Error\Validation:private] => 91518
+                                                            [_message:Braintree\Error\Validation:private] => Payment method token is invalid.
+                                                        )
+
+                                                )
+
+                                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                )
+
+                                            [_collection:protected] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [_collection:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [params] => Array
+                (
+                    [transaction] => Array
+                        (
+                            [type] => sale
+                            [amount] => 165.67
+                            [merchantAccountId] => 
+                            [options] => Array
+                                (
+                                    [submitForSettlement] => true
+                                    [holdInEscrow] => true
+                                )
+
+                            [serviceFeeAmount] => 25.85
+                            [paymentMethodToken] => card_1CLcgtHmHWWohEgMm5NA5SCV
+                        )
+
+                )
+
+            [message] => Payment method token is invalid.
+Service fee not supported on master merchant account.
+Transaction could not be held in escrow.
+Payment method token is invalid.
+            [creditCardVerification] => 
+            [transaction] => 
+            [subscription] => 
+            [merchantAccount] => 
+            [verification] => 
+        )
+
+)
+
+<!------------------------------End-------------------------------->
+<!---------------------[2018/05/19 02:29:20]----------------------->
+ BOOKING ID 1306
+ PAYMENT INPUT Array
+(
+    [amount] => 130.76
+    [merchantAccountId] => 
+    [options] => Array
+        (
+            [submitForSettlement] => 1
+            [holdInEscrow] => 1
+        )
+
+    [serviceFeeAmount] => 20.61
+    [paymentMethodToken] => card_1CLcgtHmHWWohEgMm5NA5SCV
+)
+
+ PAYMENT OUTPUT Braintree\Result\Error Object
+(
+    [success] => 
+    [_attributes:protected] => Array
+        (
+            [errors] => Braintree\Error\ErrorCollection Object
+                (
+                    [_errors:Braintree\Error\ErrorCollection:private] => Braintree\Error\ValidationErrorCollection Object
+                        (
+                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                )
+
+                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                    [transaction] => Braintree\Error\ValidationErrorCollection Object
+                                        (
+                                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                    [0] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => paymentMethodToken
+                                                            [_code:Braintree\Error\Validation:private] => 91518
+                                                            [_message:Braintree\Error\Validation:private] => Payment method token is invalid.
+                                                        )
+
+                                                    [1] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => serviceFeeAmount
+                                                            [_code:Braintree\Error\Validation:private] => 91557
+                                                            [_message:Braintree\Error\Validation:private] => Service fee not supported on master merchant account.
+                                                        )
+
+                                                    [2] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => base
+                                                            [_code:Braintree\Error\Validation:private] => 91560
+                                                            [_message:Braintree\Error\Validation:private] => Transaction could not be held in escrow.
+                                                        )
+
+                                                    [3] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => paymentMethodToken
+                                                            [_code:Braintree\Error\Validation:private] => 91518
+                                                            [_message:Braintree\Error\Validation:private] => Payment method token is invalid.
+                                                        )
+
+                                                )
+
+                                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                )
+
+                                            [_collection:protected] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [_collection:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [params] => Array
+                (
+                    [transaction] => Array
+                        (
+                            [type] => sale
+                            [amount] => 130.76
+                            [merchantAccountId] => 
+                            [options] => Array
+                                (
+                                    [submitForSettlement] => true
+                                    [holdInEscrow] => true
+                                )
+
+                            [serviceFeeAmount] => 20.61
+                            [paymentMethodToken] => card_1CLcgtHmHWWohEgMm5NA5SCV
+                        )
+
+                )
+
+            [message] => Payment method token is invalid.
+Service fee not supported on master merchant account.
+Transaction could not be held in escrow.
+Payment method token is invalid.
+            [creditCardVerification] => 
+            [transaction] => 
+            [subscription] => 
+            [merchantAccount] => 
+            [verification] => 
+        )
+
+)
+
+<!------------------------------End-------------------------------->
+<!---------------------[2018/05/19 02:41:48]----------------------->
+ BOOKING ID 1307
+ PAYMENT INPUT Array
+(
+    [amount] => 538.37
+    [merchantAccountId] => 
+    [options] => Array
+        (
+            [submitForSettlement] => 1
+            [holdInEscrow] => 1
+        )
+
+    [serviceFeeAmount] => 81.76
+    [paymentMethodToken] => card_1CLcgtHmHWWohEgMm5NA5SCV
+)
+
+ PAYMENT OUTPUT Braintree\Result\Error Object
+(
+    [success] => 
+    [_attributes:protected] => Array
+        (
+            [errors] => Braintree\Error\ErrorCollection Object
+                (
+                    [_errors:Braintree\Error\ErrorCollection:private] => Braintree\Error\ValidationErrorCollection Object
+                        (
+                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                )
+
+                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                    [transaction] => Braintree\Error\ValidationErrorCollection Object
+                                        (
+                                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                    [0] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => paymentMethodToken
+                                                            [_code:Braintree\Error\Validation:private] => 91518
+                                                            [_message:Braintree\Error\Validation:private] => Payment method token is invalid.
+                                                        )
+
+                                                    [1] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => serviceFeeAmount
+                                                            [_code:Braintree\Error\Validation:private] => 91557
+                                                            [_message:Braintree\Error\Validation:private] => Service fee not supported on master merchant account.
+                                                        )
+
+                                                    [2] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => base
+                                                            [_code:Braintree\Error\Validation:private] => 91560
+                                                            [_message:Braintree\Error\Validation:private] => Transaction could not be held in escrow.
+                                                        )
+
+                                                    [3] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => paymentMethodToken
+                                                            [_code:Braintree\Error\Validation:private] => 91518
+                                                            [_message:Braintree\Error\Validation:private] => Payment method token is invalid.
+                                                        )
+
+                                                )
+
+                                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                )
+
+                                            [_collection:protected] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [_collection:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [params] => Array
+                (
+                    [transaction] => Array
+                        (
+                            [type] => sale
+                            [amount] => 538.37
+                            [merchantAccountId] => 
+                            [options] => Array
+                                (
+                                    [submitForSettlement] => true
+                                    [holdInEscrow] => true
+                                )
+
+                            [serviceFeeAmount] => 81.76
+                            [paymentMethodToken] => card_1CLcgtHmHWWohEgMm5NA5SCV
+                        )
+
+                )
+
+            [message] => Payment method token is invalid.
+Service fee not supported on master merchant account.
+Transaction could not be held in escrow.
+Payment method token is invalid.
+            [creditCardVerification] => 
+            [transaction] => 
+            [subscription] => 
+            [merchantAccount] => 
+            [verification] => 
+        )
+
+)
+
+<!------------------------------End-------------------------------->
+<!---------------------[2018/05/24 06:40:27]----------------------->
+ BOOKING ID 1305
+ PAYMENT INPUT Array
+(
+    [amount] => 3.85
+    [merchantAccountId] => 
+    [options] => Array
+        (
+            [submitForSettlement] => 1
+            [holdInEscrow] => 1
+        )
+
+    [serviceFeeAmount] => 1.58
+    [paymentMethodToken] => 8vnbsd
+)
+
+ PAYMENT OUTPUT Braintree\Result\Error Object
+(
+    [success] => 
+    [_attributes:protected] => Array
+        (
+            [errors] => Braintree\Error\ErrorCollection Object
+                (
+                    [_errors:Braintree\Error\ErrorCollection:private] => Braintree\Error\ValidationErrorCollection Object
+                        (
+                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                )
+
+                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                (
+                                    [transaction] => Braintree\Error\ValidationErrorCollection Object
+                                        (
+                                            [_errors:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                    [0] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => serviceFeeAmount
+                                                            [_code:Braintree\Error\Validation:private] => 91557
+                                                            [_message:Braintree\Error\Validation:private] => Service fee not supported on master merchant account.
+                                                        )
+
+                                                    [1] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => base
+                                                            [_code:Braintree\Error\Validation:private] => 91560
+                                                            [_message:Braintree\Error\Validation:private] => Transaction could not be held in escrow.
+                                                        )
+
+                                                    [2] => Braintree\Error\Validation Object
+                                                        (
+                                                            [_attribute:Braintree\Error\Validation:private] => paymentMethodToken
+                                                            [_code:Braintree\Error\Validation:private] => 91518
+                                                            [_message:Braintree\Error\Validation:private] => Payment method token is invalid.
+                                                        )
+
+                                                )
+
+                                            [_nested:Braintree\Error\ValidationErrorCollection:private] => Array
+                                                (
+                                                )
+
+                                            [_collection:protected] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [_collection:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [params] => Array
+                (
+                    [transaction] => Array
+                        (
+                            [type] => sale
+                            [amount] => 3.85
+                            [merchantAccountId] => 
+                            [options] => Array
+                                (
+                                    [submitForSettlement] => true
+                                    [holdInEscrow] => true
+                                )
+
+                            [serviceFeeAmount] => 1.58
+                            [paymentMethodToken] => 8vnbsd
+                        )
+
+                )
+
+            [message] => Service fee not supported on master merchant account.
+Transaction could not be held in escrow.
+Payment method token is invalid.
+            [creditCardVerification] => 
+            [transaction] => 
+            [subscription] => 
+            [merchantAccount] => 
+            [verification] => 
+        )
+
+)
+
+<!------------------------------End-------------------------------->
